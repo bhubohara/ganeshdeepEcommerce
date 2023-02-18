@@ -1,0 +1,86 @@
+2023-02-14T02:45:51+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T02:45:51+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T02:51:44+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T02:51:44+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T02:57:40+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T02:57:40+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T02:58:48+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T02:58:48+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T02:58:48+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T02:58:48+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T03:27:52+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T03:27:52+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T03:28:06+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T03:28:06+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T03:28:08+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T03:28:08+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T03:28:10+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T03:28:10+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T03:39:41+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T03:42:41+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T03:48:01+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T03:48:01+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T03:49:51+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T03:49:51+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T03:50:13+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T03:50:13+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T05:19:22+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T05:19:22+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T05:20:46+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/disconnect/
+
+{"external_business_id":false,"business_platform":"WOO_COMMERCE","is_setup_page":0,"app_id":false}
+ ajax: no
+2023-02-14T05:20:47+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 2023021405204459C4F8BFAF4E160769F8
+Server-Timing: inner; dur=6
+x-tt-trace-host: 01f18468052fcb3967311ae276c2a02d96e4b0668db1363c373e6ea812a3fb2b6b88b54ed21eedb46e4e24e59a2515bbfa7356f6d0fa7406ef3c7cb555d9de850a9f27dff6d2e887f734958d3acfd0cd7d1b27d8c65bd6e403d98c389590706b6f
+Expires: Tue, 14 Feb 2023 05:20:45 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 14 Feb 2023 05:20:45 GMT
+X-Cache: TCP_MISS from a96-17-150-92.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=75
+X-Origin-Response-Time: 76,96.17.150.92
+X-Akamai-Request-ID: 36bcbedc
+
+{"code":40104,"message":"The access_token is empty.","request_id":"2023021405204459C4F8BFAF4E160769F8"}
+
+2023-02-14T05:20:47+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+ ajax: no
+2023-02-14T05:20:48+00:00 DEBUG Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 2023021405204516AF86F21AFC38075B04
+x-tt-trace-host: 01f18468052fcb3967311ae276c2a02d960865e399744df5e811e4925c9deb5ad7fb89adb25dfbd16ea854be5b72f61f4e95cb9f8698abbe535486f3432aee9d57ab499e377e674f30663d232077c4c292a0cf313be490184ffd77c69907402a77ae0518d411374cdd3c868dbde7569c28
+X-Origin-Response-Time: 20,23.50.232.196
+X-Akamai-Request-ID: 27830020.36bcc5bd
+Expires: Tue, 14 Feb 2023 05:20:46 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 14 Feb 2023 05:20:46 GMT
+X-Cache: TCP_MISS from a96-17-150-92.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-50-232-196.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=53, origin; dur=20
+Server-Timing: inner; dur=12
+X-Parent-Response-Time: 72,96.17.150.92
+
+{"code":40001,"message":"Permission denied.","request_id":"2023021405204516AF86F21AFC38075B04"}
+

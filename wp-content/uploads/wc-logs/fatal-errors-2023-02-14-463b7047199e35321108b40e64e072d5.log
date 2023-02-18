@@ -1,0 +1,4 @@
+2023-02-14T05:30:28+00:00 CRITICAL Out of memory (allocated 106954752) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 392
+
+2023-02-14T16:00:29+00:00 CRITICAL Out of memory (allocated 96468992) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\themes\woodmart\inc\classes\Themesettingscss.php on line 473
+
